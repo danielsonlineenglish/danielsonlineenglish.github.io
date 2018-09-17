@@ -1,5 +1,5 @@
 body {
-  background-color: #d45c48;
+  background-color: #fff;
   color: #333;
   font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
     "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
@@ -7,6 +7,8 @@ body {
     "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
   padding: 18vh 1rem;
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
 a {
@@ -18,16 +20,21 @@ a {
   }
 }
 
+div.header-container {
+  background-color: #d45c48;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+div.content-container {
+  background-color: #fff;
+  width: 100%;
+  height: 700px;
+}
+
 // orange #d45c48
 // yellow #f5c363
 // light blue #6bd9dc
 // gray #4c5b6f
 //off white #dcdbdc
-
-.calendly-badge-widget {
-  margin: 0;
-  position: absolute;
-  left: 45%;
-  top: 35%;
-  z-index: 9998;
-}
