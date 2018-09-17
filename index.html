@@ -13,13 +13,16 @@
     <script src="/javascripts/site.js"></script>
   </head>
   <body>
-    <img src="/images/video.png" alt="page_logo" height="100" width="100" />
+    <div class='header-container'>
+<img src="/images/video.png" alt="page_logo" height="100" width="100" />
 <h1>
 Daniel's Online English
 </h1>
-<script>
-  Calendly.initBadgeWidget({url: 'https://calendly.com/danielsonlineenglish', text: 'Book a lesson', color: '#4d5055', branding: false});
-</script>
+</div>
+<div class='content-container'>
+<div class='calendly-inline-widget' data-url='https://calendly.com/danielsonlineenglish' style='min-width:320px;height:580px;'></div>
+<script src='https://assets.calendly.com/assets/external/widget.js' type='text/javascript'></script>
+</div>
 
 
   </body>
