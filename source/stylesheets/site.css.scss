@@ -1,10 +1,7 @@
 body {
   background-color: #fff;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  color: #fff;
+  font-family: Gill Sans;
   padding: 18vh 1rem;
   text-align: center;
   padding: 0;
@@ -23,8 +20,14 @@ a {
 div.header-container {
   background-color: #d45c48;
   width: 100%;
-  padding-top: 30px;
-  padding-bottom: 40px;
+  font-weight: 400;
+  font-size: 2.6em;
+  padding-top: 35px;
+  padding-bottom: 25px;
+}
+
+div.header-container p {
+  margin-top: 20px;
 }
 
 div.content-container {
