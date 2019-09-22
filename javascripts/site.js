@@ -1,1 +1,0 @@
-!function(e){e.cookieBubble({messageText:"My custom message",iconVisibility:!1})}(jQuery);
