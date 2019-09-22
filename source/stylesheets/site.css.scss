@@ -1,7 +1,7 @@
 body {
   background-color: #fff;
   color: #fff;
-  font-family: Gill Sans;
+  font-family: Avenir Next;
   padding: 18vh 1rem;
   text-align: center;
   padding: 0;
@@ -18,16 +18,11 @@ a {
 }
 
 div.header-container {
-  background-color: #d45c48;
+  background-image: url(/images/background.jpg);
+  background-size: cover;
   width: 100%;
-  font-weight: 400;
-  font-size: 2.6em;
-  padding-top: 35px;
-  padding-bottom: 25px;
-}
-
-div.header-container p {
-  margin-top: 20px;
+  padding-top: 30px;
+  padding-bottom: 15px;
 }
 
 div.content-container {
