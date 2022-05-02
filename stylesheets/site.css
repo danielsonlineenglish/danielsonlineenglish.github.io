@@ -4,8 +4,8 @@ body {
     font-family: Gill Sans;
     padding: 18vh 1rem;
     text-align: center;
-    padding: 0;
-    margin: 0
+    padding: 1px;
+    margin: 1px
 }
 
 a {
@@ -28,7 +28,7 @@ div.header-container {
 div.header-text p {
     font-weight: 400;
 /*     font-size: 3em; */
-    font-size: 7vw;
+    font-size: 7px;
     margin-top: 5px
 }
 
