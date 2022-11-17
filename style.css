@@ -250,6 +250,9 @@ a:hover{text-decoration: none; cursor:pointer;}
 /* = Bric adjustment margins
 -------------------------------------------------------------- */
 
+.mg-clear{
+	margin:0;
+}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
@@ -314,13 +317,6 @@ button{
 }
 
 
-/* = Forms
--------------------------------------------------------------- */
-
-.form-control{
-	border-color:rgba(0,0,0,.1);
-	box-shadow:none;
-}
 
 
 .carousel-nav-icon{
