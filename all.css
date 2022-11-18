@@ -10615,22 +10615,15 @@ button{
 	outline: none!important;
 }
 
-.btn-rd{
-	border-radius: 40px;
-}
-.btn-clean{
-	border:1px solid rgba(0,0,0,.08);
-	border-bottom-color:rgba(0,0,0,.1);
-	text-shadow:0 1px 0 rgba(0,0,1,.1);
-	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
-}
-.btn-wire{
-	background:transparent!important;
-	border:2px solid transparent;
-}
-.btn-wire:hover{
-	background:transparent!important;
-	border:2px solid transparent;
+.btn-glossy{
+	border:1px solid rgba(0,0,0,.09);
+	border-bottom-color:rgba(0,0,0,.2);
+	text-shadow:0 1px 0 rgba(0,0,1,.2);
+	box-shadow: 0 1px 3px rgba(0,0,1,.35), inset 0 1px 0 0 rgba(255,255,255,.4), inset 0 1px 0 2px rgba(255,255,255,.08);
+	background-image: -moz-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
+	 background-image: -o-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
+	background-image: -webkit-linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
+	background-image: linear-gradient(bottom, rgba(0,0,0,.07) 0%, rgba(255,255,255,.07) 100%);
 }
 .btn-xl{
 	padding: 16px 40px;
@@ -10681,10 +10674,6 @@ button{
 
 .hide-indicators{
 	display:none;
-}
-/* Scroll FX */
-.scroll-fx-in-range{
-	will-change: opacity;
 }
 
 
@@ -10773,8 +10762,26 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .contact_bloc{
 	padding-top:26px;
-	padding-bottom:240px;
+	padding-bottom:264px;
 	border-style:_popUpItemAction:;
+}
+.sticky_footer{
+	align-items:flex-end;
+	justify-content:flex-end;
+	align-content:flex-end;
+	padding:0px 0px 0px 0px;
+}
+.p-16-style{
+	font-size:18px;
+	line-height:30px;
+}
+.p-personal-style{
+	font-size:18px;
+	line-height:30px;
+}
+.p-pricing-style{
+	font-size:18px;
+	line-height:30px;
 }
 
 /* = Colour
@@ -10800,14 +10807,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Button colour styles */
 
-.btn-dark-gray{
-	background:#A9A9A9;
-	color:#FFFFFF!important;
-}
-.btn-dark-gray:hover{
-	background:#878787!important;
-	color:#FFFFFF!important;
-}
 .btn-shamrock-green{
 	background:#008F51;
 	color:#FFFFFF!important;
@@ -10815,10 +10814,6 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-shamrock-green:hover{
 	background:#007241!important;
 	color:#FFFFFF!important;
-}
-.wire-btn-dark-gray{
-	color:#A9A9A9!important;
-	border-color:#A9A9A9!important;
 }
 
 /* Link colour styles */
