@@ -10585,6 +10585,22 @@ a:hover{text-decoration: none; cursor:pointer;}
 	margin-top:10px;
 	margin-bottom:20px;
 }
+.mg-lg{
+	margin-top:10px;
+	margin-bottom:40px;
+}
+img.mg-sm,img.mg-md,img.mg-lg{
+	margin-top: 0;
+}
+img.mg-sm{
+	margin-bottom:10px;
+}
+img.mg-md{
+	margin-bottom:30px;
+}
+img.mg-lg{
+	margin-bottom:50px;
+}
 
 /* = Buttons
 -------------------------------------------------------------- */
@@ -10599,11 +10615,22 @@ button{
 	outline: none!important;
 }
 
+.btn-rd{
+	border-radius: 40px;
+}
 .btn-clean{
 	border:1px solid rgba(0,0,0,.08);
 	border-bottom-color:rgba(0,0,0,.1);
 	text-shadow:0 1px 0 rgba(0,0,1,.1);
 	box-shadow: 0 1px 3px rgba(0,0,1,.25), inset 0 1px 0 0 rgba(255,255,255,.15);
+}
+.btn-wire{
+	background:transparent!important;
+	border:2px solid transparent;
+}
+.btn-wire:hover{
+	background:transparent!important;
+	border:2px solid transparent;
 }
 .btn-xl{
 	padding: 16px 40px;
@@ -10655,6 +10682,10 @@ button{
 .hide-indicators{
 	display:none;
 }
+/* Scroll FX */
+.scroll-fx-in-range{
+	will-change: opacity;
+}
 
 
 /* ScrollToTop button */
@@ -10698,6 +10729,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .row-style{
 	width:100%;
+	padding-bottom:30px;
 }
 .h2-style{
 	opacity:0.8;
@@ -10706,12 +10738,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	fill:#929292;
 }
 .p-style{
-	font-size:24px;
+	font-size:20px;
 	line-height:39px;
 }
 .h2-2-style{
 	width:85.04%;
-	font-size:30px;
+	font-size:26px;
 }
 .h1-style{
 	line-height:60px;
@@ -10721,6 +10753,28 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h1-3-style{
 	line-height:60px;
+}
+.h2-home-bloc-style{
+	font-size:30px;
+}
+.hero_home{
+	border-style:_popUpItemAction:;
+	padding:10px 90px 40px 90px;
+}
+.nav_butt{
+	padding:20px 20px 20px 20px;
+}
+.intro_text{
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.img-style{
+	width:312px;
+}
+.contact_bloc{
+	padding-top:26px;
+	padding-bottom:240px;
+	border-style:_popUpItemAction:;
 }
 
 /* = Colour
@@ -10761,6 +10815,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .btn-shamrock-green:hover{
 	background:#007241!important;
 	color:#FFFFFF!important;
+}
+.wire-btn-dark-gray{
+	color:#A9A9A9!important;
+	border-color:#A9A9A9!important;
 }
 
 /* Link colour styles */
