@@ -10786,6 +10786,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .h2-home-bloc-style{
 	font-size:30px;
+	font-family:"Poppins";
+	font-weight:500;
 }
 .hero_home{
 	border-style:_popUpItemAction:;
@@ -14865,6 +14867,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .hideMe{
     visibility:hidden;
 }
+
+span.animated{display:inline-block;}
+
 @media (max-width: 767px){
   .mob-disable-anim .animated{
     animation-duration: 0s;
